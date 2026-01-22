@@ -1,0 +1,146 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.5px;
+}
+
+.container {
+	max-width: 1480px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.btn {
+	padding: 12px 24px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 100%;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	background-color: #ff7500;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	transition: all 0.4s ease;
+}
+
+.btn:hover {
+	opacity: 0.6;
+}
+
+.btn:active {
+	opacity: 0.8;
+}
+
+/* header start */
+.header {
+	padding-top: 16px;
+	padding-bottom: 16px;
+	border-top: 5px solid #ff7500;
+}
+
+.site-header-container {
+	display: flex;
+	align-items: center;
+}
+.header-logo {
+	margin-right: auto;
+}
+.site-nav {
+	display: flex;
+}
+.site-nav-item:not(:last-child) {
+	margin-right: 32px;
+}
+
+.site-nav-link {
+	color: black;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	font-size: 13px;
+	line-height: 100%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	margin-right: 32px;
+}
+
+.site-nav-link:hover {
+	color: #ff7500;
+}
+
+.site-nav-link:active {
+	opacity: 0.6;
+}
+
+.site-nav-link.active {
+	border-bottom: #ff7500 3px solid;
+	padding-bottom: 4px;
+}
+
+.btn a {
+	color: #ffffff;
+}
+/* header end */
+
+.main-content {
+	margin-bottom: 40px;
+}
+.hero {
+	background-color: #252420;
+	color: #ffffff;
+}
+.hero-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.line {
+	display: block;
+	width: 80px;
+	height: 3px;
+	background-color: #ff7500;
+	margin-bottom: 40px;
+}
+.hero-title {
+	font-family: 'Roboto Condensed';
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 120%;
+	letter-spacing: 0.5px;
+}
+.hero-info {
+	font-family: 'Roboto';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.5px;
+	margin-bottom: 32px;
+}
+
+.hero-img {
+	display: flex;
+	margin-top: 40px;
+	margin-bottom: -40px;
+}
